@@ -1,0 +1,64 @@
+#banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#projects{
+	position:absolute;
+	top: 40%;
+	right: 0;
+}
+
+.project{
+	display: flex;
+	/* background: red; */
+	border-bottom: 2px solid black;
+	justify-content: space-evenly;
+	width: clamp(900px, 20vw, 1500px);
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.project > .slash{
+  width: 2px;
+  height: 40%;
+  background: black;
+  position: absolute;
+  bottom: 25px;
+  left: -180px;
+  transform: rotate(-25deg);
+}
+
+.project > .index{
+  position: absolute;
+  bottom: 25px;
+  left: -80px;
+}
+
+.project > .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background: blue; */
+  width: 25%;
+  padding: 25px 0;
+}
+
+.project > .middle{
+  width: 55%;
+}
+
+.project > .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  /* background: yellow; */
+  width: 20%;
+  padding: 25px 0;
+}
+
+img{
+	width: 100%;
+}

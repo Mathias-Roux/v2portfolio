@@ -1,0 +1,51 @@
+{
+	"room_homepage": {
+		"title": "RoomHomepage",
+		"description": "Homepage made from a frontend mentor challenge",
+		"details": "React",
+		"link": "https://github.com/Mathias-Roux/room__homepage",
+		"date": "2022"
+	},
+	"space_xperience": {
+		"title": "Space Xperience",
+		"description": "Website made from a frontend mentor challenge",
+		"details": "React",
+		"link": "https://github.com/Mathias-Roux/space_xperience",
+		"date": "2022"
+	},
+	"buildings": {
+		"title": "Buildings",
+		"description": "A landing page animated with gsap and a custom cursor",
+		"details": "Gsap",
+		"link": "https://github.com/Mathias-Roux/grid_buildings_gsap",
+		"date": "2022"
+	},
+	"cherry_blossom": {
+		"title": "Cherry Blossom",
+		"description": "An homepage on sakura trees theme",
+		"details": "animated with gsap and a 3d Spline model",
+		"link": "https://github.com/Mathias-Roux/cherry-blossom",
+		"date": "2022"
+	},
+	"jade_ed": {
+		"title": "jadeEd",
+		"description": "A React application on jade jewelry. Build with home, products, about and contact pages",
+		"details": "React",
+		"link": "https://github.com/Mathias-Roux/jadeEd--react",
+		"date": "2022"
+	},
+	"gallery": {
+		"title": "Gallery",
+		"description": "A landing page with a title changing according to the hovered photo",
+		"details": "Gsap",
+		"link": "https://github.com/Mathias-Roux/loaderPage--imagessloaded",
+		"date": "2022"
+	},
+	"text_reveal": {
+		"title": "Text reveal",
+		"description": "A landing page with change switching content",
+		"details": "Animated with Gsap",
+		"link": "https://github.com/Mathias-Roux/parcel-gsap",
+		"date": "2022"
+	}
+}
