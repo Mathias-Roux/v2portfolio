@@ -1,3 +1,18 @@
+*,
+::before,
+::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.a{color: red;}
+.b{color: red;}
+
+body{
+  font-smooth: always;
+}
+
 #banner {
   position: fixed;
   top: 0;

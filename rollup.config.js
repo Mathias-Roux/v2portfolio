@@ -1,5 +1,6 @@
 import postcss from 'rollup-plugin-postcss';
-import postcss_plugins from './postcss.config.js';
+import csso from 'postcss-csso';
+
 
 export default {
     input: './src/app.js',
@@ -11,7 +12,7 @@ export default {
     plugins: [
       postcss({
         plugins: [
-          postcss_plugins,
+          csso(),
           require('autoprefixer')
         ],
         extract: 'dist/style.css'
