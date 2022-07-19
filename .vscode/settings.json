@@ -1,6 +1,11 @@
 {
   "cSpell.words": [
+    "csso",
+    "iife",
     "technos",
     "xperience"
-  ]
+  ],
+  "files.exclude": {
+    "dist": false
+  }
 }

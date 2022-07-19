@@ -1,0 +1,29 @@
+{
+  "name": "v2portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "postcss": "^8.4.14",
+    "rollup": "^2.77.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathias-Roux/v2portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mathias-Roux/v2portfolio/issues"
+  },
+  "homepage": "https://github.com/Mathias-Roux/v2portfolio#readme",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss-csso": "^6.0.0"
+  }
+}
