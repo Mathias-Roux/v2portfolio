@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="module" src="./app.js" defer></script>
 </head>
 
 <body>
@@ -34,7 +35,7 @@
           </div>
           <div class="middle">
             <div class="img">
-              image
+              <img src='<?= $project["images"][0] ?>' alt="image preview">
             </div>
           </div>
           <div class="left">
@@ -52,7 +53,5 @@
       ?>
 
 </body>
-
-<script type="module" src="./app.js"></script>
 
 </html>

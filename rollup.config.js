@@ -15,7 +15,6 @@ export default {
         modules: true,
         minimize: true,
         plugins: [
-          require('autoprefixer'),
           postcssPresetEnv({ autoprefixer: {} }),
           csso({
             restructure: false

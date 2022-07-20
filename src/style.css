@@ -4,11 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  user-select: none;
-}
-
-::placeholder {
-  color: gray;
 }
 
 body{
@@ -32,7 +27,6 @@ body{
 
 .project{
 	display: flex;
-	/* background: red; */
 	border-bottom: 2px solid black;
 	justify-content: space-evenly;
 	width: clamp(900px, 20vw, 1500px);
@@ -60,7 +54,6 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* background: blue; */
   width: 25%;
   padding: 25px 0;
 }
@@ -74,7 +67,6 @@ body{
   flex-direction: column;
   justify-content: space-between;
   align-items:center;
-  /* background: yellow; */
   width: 20%;
   padding: 25px 0;
 }
