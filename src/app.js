@@ -1,5 +1,13 @@
 import './style.css'
 
-import sayHello from './modules/MyModule.js';
+import handleHover from './modules/cardHover.js'
 
-sayHello('Hi from dist folder');
+console.log('hi')
+
+const cards = document.querySelectorAll('.project')
+cards.forEach(card => {
+  card.addEventListener('mouseenter', e => {
+    console.log('hover')
+    handleHover();
+  })
+})

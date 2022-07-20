@@ -1,5 +1,6 @@
 {
 	"room_homepage": {
+    "index": 0,
 		"title": "RoomHomepage",
 		"description": "Homepage made from a frontend mentor challenge",
 		"details": "React",
@@ -14,6 +15,7 @@
     ]
 	},
 	"space_xperience": {
+    "index": 1,
 		"title": "Space Xperience",
 		"description": "Website made from a frontend mentor challenge",
 		"details": "React",
@@ -32,6 +34,7 @@
     "videos": null
 	},
 	"buildings": {
+    "index": 2,
 		"title": "Buildings",
 		"description": "A landing page animated with gsap and a custom cursor",
 		"details": "Gsap",
@@ -46,6 +49,7 @@
     ]
 	},
 	"cherry_blossom": {
+    "index": 3,
 		"title": "Cherry Blossom",
 		"description": "An homepage on sakura trees theme",
 		"details": "animated with gsap and a 3d Spline model",
@@ -59,6 +63,7 @@
     ]
 	},
 	"jade_ed": {
+    "index": 4,
 		"title": "jadeEd",
 		"description": "A React application on jade jewelry. Build with home, products, about and contact pages",
 		"details": "React",
@@ -76,6 +81,7 @@
     ]
 	},
 	"gallery": {
+    "index": 5,
 		"title": "Gallery",
 		"description": "A landing page with a title changing according to the hovered photo",
 		"details": "Gsap",
@@ -87,6 +93,7 @@
     "videos": null
 	},
 	"text_reveal": {
+    "index": 6,
 		"title": "Text reveal",
 		"description": "A landing page with change switching content",
 		"details": "Animated with Gsap",

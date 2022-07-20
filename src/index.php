@@ -7,8 +7,8 @@
   <title>php_test</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="module" src="./app.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="./app.js"></script>
 </head>
 
 <body>
@@ -28,15 +28,13 @@
     ?>
         <div class="project">
           <div class="slash"></div>
-          <div class="index">index</div>
+          <div class="index"><?= $project["index"] ?></div>
           <div class="right">
             <div class="title"><?= $project["title"] ?></div>
             <div class="date"><?= $project["date"] ?></div>
           </div>
           <div class="middle">
-            <div class="img">
-              <img src='<?= $project["images"][0] ?>' alt="image preview">
-            </div>
+            <div class="img" style="background-image: url('<?= $project["images"][0] ?>')"></div>
           </div>
           <div class="left">
             <div class="arrow">arrow --></div>
@@ -48,9 +46,8 @@
       }
     }
     ?>
-    <section>
-      <?php
-      ?>
+  </section>
+
 
 </body>
 
