@@ -1,0 +1,23 @@
+{
+	"inside": {
+		"hero": {
+			"title": [
+				"RoomHomepage",
+				"Made by rouxMathias",
+				"from fontEnd Mentor"
+			],
+			"details": {
+				"title": "Technologies used",
+				"technos": [
+					"React",
+					"ParcelJs"
+				]
+			},
+			"infos": {
+				"title": "Informations",
+				"p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus velit id urna gravida dapibus. Praesent eget gravida sem. In vitae dui tempus, placerat nunc luctus, tempus sem."
+			}
+		}
+	}
+
+}

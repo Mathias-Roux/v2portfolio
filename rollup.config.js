@@ -13,7 +13,6 @@ export default {
       postcss({
         extract: 'style.css',
         modules: true,
-        minimize: true,
         plugins: [
           postcssPresetEnv({ autoprefixer: {} }),
           csso({

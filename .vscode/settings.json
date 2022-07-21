@@ -6,6 +6,7 @@
     "xperience"
   ],
   "files.exclude": {
-    "dist": false
+    "dist": false,
+    "node_modules": false
   }
 }

@@ -7,8 +7,7 @@
   <title>php_test</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <script type="module" src="./app.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -48,7 +47,8 @@
     ?>
   </section>
 
-
 </body>
+
+<script type="module" src="app.js"></script>
 
 </html>

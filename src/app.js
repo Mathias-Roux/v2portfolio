@@ -1,13 +1,11 @@
-import './style.css'
-
-import handleHover from './modules/cardHover.js'
-
-console.log('hi')
+import { handleHover } from "./modules/Hover.js"
 
 const cards = document.querySelectorAll('.project')
+
 cards.forEach(card => {
   card.addEventListener('mouseenter', e => {
-    console.log('hover')
-    handleHover();
+    e.preventDefault
+
+    handleHover()
   })
-})
+});
