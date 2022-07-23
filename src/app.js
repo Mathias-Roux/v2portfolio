@@ -1,21 +1,4 @@
-import gsap from "../../node_modules/gsap/all.js"
+import { Item } from './modules/item.js';
 
-const cards = document.querySelectorAll('.project')
-
-const animation = () => {
-  gsap.to([".project__slash", ".project__index"], {
-    x: -50,
-    opacity: 1,
-    duration: 1
-  });
-}
-
-cards.forEach(card => {
-  const x = animation()
-  card.addEventListener('mouseenter', () => {
-    x.play()
-  })
-  card.addEventListener('mouseleave', () => {
-    x.reverse()
-  })
-});
+const items = [];
+[...document.querySelectorAll('.item')].forEach(item => items.push(new Item(item)));
