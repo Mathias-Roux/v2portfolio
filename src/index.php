@@ -33,8 +33,8 @@
               <div class="item__right-title"><?= $item["title"] ?></div>
               <div class="item__right-date"><?= $item["date"] ?></div>
             </div>
-            <div class="item__middle">
-              <div class="item__middle-img" style="background-image: url('<?= $item["images"][0] ?>')"></div>
+            <div class="item__image">
+              <div class="item__image-inner" style="background-image: url('<?= $item["images"][0] ?>')"></div>
             </div>
             <div class="item__left">
               <div class="item__left-arrow">arrow --></div>
