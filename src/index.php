@@ -11,42 +11,43 @@
 </head>
 
 <body>
-  <div id="banner">
-    <h1>mathiasRoux</h1>
-    <h2>Creative developer</h2>
-  </div>
+  <main>
+    <div id="banner">
+      <h1 class="banner__title">mathiasRoux</h1>
+      <h2 class="banner__role">Creative developer</h2>
+    </div>
 
-  <?php
-  $json_data = file_get_contents("./data/projects_data.json");
-  $projects = json_decode($json_data, true);
-  ?>
-  <section id="projects">
     <?php
-    if (count($projects) != 0) {
-      foreach ($projects as $project) {
+    $json_data = file_get_contents("./data/projects_data.json");
+    $items = json_decode($json_data, true);
     ?>
-        <div class="project">
-          <div class="slash"></div>
-          <div class="index"><?= $project["index"] ?></div>
-          <div class="right">
-            <div class="title"><?= $project["title"] ?></div>
-            <div class="date"><?= $project["date"] ?></div>
+    <section id="items">
+      <?php
+      if (count($items) != 0) {
+        foreach ($items as $item) {
+      ?>
+          <div class="item">
+            <div class="item__slash"></div>
+            <div class="item__index"><?= $item["index"] ?></div>
+            <div class="item__right">
+              <div class="item__right-title"><?= $item["title"] ?></div>
+              <div class="item__right-date"><?= $item["date"] ?></div>
+            </div>
+            <div class="item__middle">
+              <div class="item__middle-img" style="background-image: url('<?= $item["images"][0] ?>')"></div>
+            </div>
+            <div class="item__left">
+              <div class="item__left-arrow">arrow --></div>
+              <div class="item__left-technos"><?= $item["details"] ?></div>
+            </div>
           </div>
-          <div class="middle">
-            <div class="img" style="background-image: url('<?= $project["images"][0] ?>')"></div>
           </div>
-          <div class="left">
-            <div class="arrow">arrow --></div>
-            <div class="technos"><?= $project["details"] ?></div>
-          </div>
-        </div>
-        </div>
-    <?php
+      <?php
+        }
       }
-    }
-    ?>
-  </section>
-
+      ?>
+    </section>
+  </main>
 </body>
 
 <script type="module" src="app.js"></script>

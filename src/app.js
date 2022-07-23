@@ -3,7 +3,7 @@ import gsap from "../../node_modules/gsap/all.js"
 const cards = document.querySelectorAll('.project')
 
 const animation = () => {
-  gsap.to([".slash", ".index"], {
+  gsap.to([".project__slash", ".project__index"], {
     x: -50,
     opacity: 1,
     duration: 1
