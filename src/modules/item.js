@@ -4,7 +4,6 @@ import gsap from "../../node_modules/gsap/all.js"
 export class Item {
   DOM = {
     el: null,
-    item: null,
     slash: null,
     index: null,
     imageInner: null

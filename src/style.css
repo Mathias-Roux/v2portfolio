@@ -29,10 +29,10 @@ body{
   height: 200px;
 	display: flex;
 	border-bottom: 2px solid black;
-	justify-content: space-evenly;
 	width: clamp(900px, 20vw, 1500px);
 	margin-bottom: 15px;
 	position: relative;
+  overflow: hidden;
 }
 
 .item__slash{
@@ -58,10 +58,10 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   width: 20%;
   padding: 25px 0;
-  display: none;
+  transform: translateY(70%);
 }
 
 .item__image{
@@ -82,6 +82,6 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 25%;
-  padding: 25px 0;
+  width: 0%;
+  padding: 25px 0 25px 25px;
 }

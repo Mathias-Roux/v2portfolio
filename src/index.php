@@ -29,16 +29,16 @@
           <div class="item">
             <div class="item__slash"></div>
             <div class="item__index"><?= $item["index"] ?></div>
-            <div class="item__right">
-              <div class="item__right-title"><?= $item["title"] ?></div>
-              <div class="item__right-date"><?= $item["date"] ?></div>
+            <div class="item__left">
+              <div class="item__left-title"><?= $item["title"] ?></div>
+              <div class="item__left-date"><?= $item["date"] ?></div>
             </div>
             <div class="item__image">
               <div class="item__image-inner" style="background-image: url('<?= $item["images"][0] ?>')"></div>
             </div>
-            <div class="item__left">
-              <div class="item__left-arrow">arrow --></div>
-              <div class="item__left-technos"><?= $item["details"] ?></div>
+            <div class="item__right">
+              <a class="item__right-arrow" href="#">arrow --></a>
+              <div class="item__right-technos"><?= $item["details"] ?></div>
             </div>
           </div>
           </div>
